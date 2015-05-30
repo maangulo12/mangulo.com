@@ -8,7 +8,7 @@ To deploy application on Heroku follow these steps:
 heroku login
 heroku create (app name)
 heroku addons:create heroku-postgresql --app (app name)
-heroku pg:promote DATABASE
+heroku pg:promote DATABASE --app (app name)
 git push heroku master
 heroku open
 heroku logs --tail
