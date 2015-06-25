@@ -1,6 +1,19 @@
+# -*- coding: utf-8 -*-
+
+"""
+    mangulo.com
+    ~~~~~~~~~~~
+
+    My personal website.
+
+    :copyright: (c) 2015 by Miguel Angulo.
+"""
+
 from flask import Flask
+
 
 app = Flask(__name__)
 
-from app import views
 
+from app import config
+from app import views

@@ -14,8 +14,8 @@
     </head>
     {% block body %}
         <!---- JS Scripts ---->
-        <script src="{{ url_for('static', filename='js/jquery-1.11.3.min.js') }}"></script>
-        <script src="{{ url_for('static', filename='js/bootstrap.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/ext/jquery-1.11.3.min.js') }}"></script>
+        <script src="{{ url_for('static', filename='js/ext/bootstrap.min.js') }}"></script>
         {% block scripts %}{% endblock %}
     {% endblock %}
 </html>

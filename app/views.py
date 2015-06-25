@@ -1,7 +1,11 @@
-"""
-    All of my views/routes will be placed here.
-"""
+# -*- coding: utf-8 -*-
 
+"""
+    views.py
+    ~~~~~~~~~~~~
+
+    This module implements all of the views / routes of this application.
+"""
 
 from flask import render_template
 from app import app
