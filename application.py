@@ -9,8 +9,8 @@
     :copyright: (c) 2015 by Miguel Angulo.
 """
 
-from app import app
-from app.config import SERVER_HOST, SERVER_PORT, DEBUG_FLAG
+from app.core import app
+from app.settings import SERVER_HOST, SERVER_PORT, DEBUG_FLAG
 
 
 if __name__ == '__main__':
