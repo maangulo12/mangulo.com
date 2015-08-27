@@ -1,11 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """
-    config.py
+    app.settings
     ~~~~~~~~~~~~
 
-    This module implements all of the config variables for this application.
-"""
+    Application settings module"""
 
 import os
 
