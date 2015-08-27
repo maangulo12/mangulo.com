@@ -4,7 +4,8 @@
     app.settings
     ~~~~~~~~~~~~
 
-    Application settings module"""
+    Application settings module
+"""
 
 import os
 

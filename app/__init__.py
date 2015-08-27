@@ -1,12 +1,10 @@
 # -*- coding: utf-8 -*-
 
 """
-    mangulo.com
+    app
     ~~~~~~~~~~~
 
-    My personal website.
-
-    :copyright: (c) 2015 by Miguel Angulo.
+    App package
 """
 
 from flask import Flask
